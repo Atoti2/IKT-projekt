@@ -1,3 +1,3 @@
 # IKT-projekt
  
-## Kepe es iconok forrasa: 
+## Kepek es ikonok forrasa: 
