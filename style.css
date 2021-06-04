@@ -59,3 +59,9 @@ footer img {
     height: 15px;
 }
 
+#napiajanlat{
+    position: absolute;
+    width: 30px;
+    right:20px;
+    top:20px;
+    }
