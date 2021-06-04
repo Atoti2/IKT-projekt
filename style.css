@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+*{
+    list-style: none;
+}
 
+body{
+    background-color:#fbefdb;
+}
 .kave{
     color: #1f5b25;
     border: 1px solid #1f5b25;
@@ -8,9 +14,48 @@
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    background-color: white;
 }
 h1{
     font-family: 'Fredericka the Great', cursive;
     color: #1f5b25;
     text-align: center;
 }
+.kave:hover{
+    box-shadow: 0 0 5px #1f5b25;
+    cursor: pointer;
+}
+nav{
+    background-color: #1f5b25;
+    padding: 13px;
+    z-index: 1;
+    position: fixed;
+}
+nav a{
+    color:#f8f9fa;
+    margin: 10px;
+}
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 1.5em;
+}
+nav img {
+    width: 40px;
+}
+.banner {
+    background-image: url("kepek/banner.jpg");
+    height: 400px;
+    background-position: center center;
+    background-size: cover
+}
+footer{
+    background-color: #1f5b25;
+    color: white;
+}
+footer img {
+    height: 15px;
+}
+
